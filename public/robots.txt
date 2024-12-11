@@ -1,3 +1,14 @@
-# https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Disallow:
+Disallow: /adminPanel
+
+User-agent: *
+Disallow: /account
+
+User-agent: *
+Disallow: /registration
+
+User-agent: *
+Allow: /
+
+Sitemap: https://ggs.com.ua/sitemap.xml
+Sitemap: https://ggs.com.ua/sitemap_image.xml
